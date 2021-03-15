@@ -1,0 +1,359 @@
+
+/* slideshow */ 
+
+@media screen and (max-width: 600px){
+    .carousel-content{
+        margin: 10px;
+        padding: 20px;
+        width: 50%;
+        height: 45%;
+        background-color: white;
+        box-shadow: none;
+        background-color: #006c9e;
+        box-shadow: 1px 6px 4px #065a81;
+    }
+
+    .carousel-content h1{
+        text-align: center;
+        padding-top: 0;
+        font-size: 19px;
+        margin:0;
+        padding:0;
+        color: rgb(255, 255, 255);
+    }
+
+    .carousel-content #addopen a{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+
+    .carousel-content #addopen a:hover{
+        font-size: 18px;
+      }
+}
+
+
+
+
+/* Latest News */ 
+
+@media screen and (max-width: 600px){
+    #news-section .card{
+        width:30%;
+    }
+
+    #news-section .cards-section .containerBtn{
+        padding:0;
+        margin:0;
+        text-align: center;
+        margin-top: 10px
+    }
+
+    #news-section .cards-section .containerBtn .b{
+        margin: 0;
+        padding: 0;
+        transition: 0.2s;
+        color: #2bbcff;
+        background: none;
+        border: 1.4px solid #2bbcff;
+        border-radius: 100px;
+        width: 150%;
+        height: 90%;
+        font-size: 10px;
+    }
+
+}
+
+
+/* events */
+
+@media all and (max-width: 600px){
+    .total-events #important-events{
+            display: none;
+        }
+    
+    .top-events .card{
+        width: 60%;
+    }
+
+    .top-events .card .date-block{
+        display: none;
+    }
+
+    .top-events .card .card-text{
+        margin-left: 0;
+    }
+
+    .top-events .card .event-date{
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .events time.blank { display: none; }
+    .events time { 
+        min-width: 20%;
+        max-height: 20vw;
+        max-width: 20vw;
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 750px) {
+    .events time { 
+        min-width: 33%;
+        max-height: 33vw;
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .events time { 
+        min-width: 50%;
+        max-height: 50vw;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .total-events #important-events{
+        display: none;
+    }
+    .top-events .card{
+        width: 80%;
+    }
+}
+
+
+
+/* Research */
+
+@media screen and (max-width: 850px){
+    .research-block1 .container .leftpane p{
+        display: none;
+    }
+    .research-block1 .container .middlepane p{
+        display: none;
+    }
+    .research-block1 .container .rightpane p{
+        display: none;
+    }
+
+    .research-block1 .container .leftpane{
+        display: block;
+        width: 100%;
+        height: 50%;
+        border:none;
+        text-align: left;
+    }
+    .research-block1 .container .middlepane{
+        display: block;
+        width: 100%;
+        height: 50%;
+        padding-left:0;
+        padding-right:0 ;
+    }
+    .research-block1 .container .rightpane{
+        display: block;
+        width: 100%;
+        height: 50%;
+        border: none;
+    }
+
+    .research-block1 .container .leftpane h1{
+        padding-left: 10px;
+        text-align: left;
+    }
+    .research-block1 .container .middlepane h1{
+        width:100%;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .research-block1 .container .rightpane h1{
+        padding-left: 10px;
+        text-align: left;
+    }
+}
+
+
+/* campus-life */
+@media screen and (max-width: 600px){
+    .total-campus .campus-content .card{
+        transform: none;
+      }
+      
+}
+
+
+/* admission */
+
+@media screen and (max-width: 850px){
+
+    .admission-content .text-block{
+        top: 10px;
+        left: 40px;
+    }
+
+    .admission-content .text-block p{
+        margin:10px; 
+        margin-top:0;  
+        
+        font-size: 13px;
+    }
+
+    #apply-now{
+        display: none;
+    }
+
+    #add-col-2{
+        width:50%;
+    }
+}  
+
+@media screen and (min-width: 851px) and (max-width: 1000px){
+    
+    .admission-content .text-block{
+        top: 10px;
+        left: 40px;
+    }
+
+    .admission-content .text-block p{
+        font-size: 14px;
+    }
+
+    .text1{
+        letter-spacing: 0;
+        font-size: 24px;
+    }
+
+    .text2{
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .apply-block{
+        top: 30%; 
+        left: 50%; 
+    }
+
+    @keyframes text { 
+        0% { 
+            color: black; 
+            margin-bottom: -20px; 
+        } 
+    
+        20% { 
+            letter-spacing: 0px; 
+            margin-bottom: -20px; 
+        } 
+    
+        40% { 
+            letter-spacing: 3px; 
+            margin-bottom: -20px; 
+        }   
+}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px){
+
+    .admission-content .text-block{
+        top: 20px;
+        left: 40px;
+    }
+
+    .admission-content .text-block p{
+        font-size: 14px;
+    }
+
+    .text1{
+        letter-spacing: 0;
+        font-size: 30px;
+    }
+
+    .text2{
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .apply-block{
+        top: 30%; 
+        left: 50%; 
+    }
+
+    @keyframes text { 
+        0% { 
+            color: black; 
+            margin-bottom: -20px; 
+        } 
+    
+        20% { 
+            letter-spacing: 0px; 
+            margin-bottom: -20px; 
+        } 
+    
+        40% { 
+            letter-spacing: 3px; 
+            margin-bottom: -20px; 
+        }  
+}
+}
+
+/* about */
+
+@media screen and (max-width: 1000px){
+
+    .about-all #about-content .middlepane .top-infra{
+        display: none;
+    }
+    .about-all #about-content .middlepane .about-cards{
+        width:100%;
+    }
+
+    .flip-box:hover .flip-box-inner {
+        transform: none;
+    }
+
+    .about-all #about-content .rightpane{
+        width:50%;
+    }
+
+    .about-all #about-content .rightpane marquee h1{
+        display: none;
+    }
+
+    .about-all #about-content .leftpane{
+        display: none;
+    }
+}
+
+
+/* links */
+
+@media screen and (max-width: 800px){
+    .links .section1, .links .section2, .links .section3, .links .section4, .links .section5{
+        display: block;
+        width:100%;
+        padding-top: 0;
+    }
+    .links .section1{
+        padding-top: 20px
+    }
+
+    .bottom-container .logo img{
+        height: 30px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+    #navbar .apply-nav{
+        display: none;
+    }
+    #navbar .topnav a{
+        width: 16.66%;
+    }
+}

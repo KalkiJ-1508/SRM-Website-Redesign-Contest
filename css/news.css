@@ -1,0 +1,113 @@
+#news-section{
+  display: block;
+  width:100%
+}
+
+marquee{
+  color: black;
+  font-weight: bolder;
+  font-family: Times, serif;
+  padding-top: 10px;
+  font-size: 20px;
+  background-color:#3498db;
+}
+
+.card-text{
+  padding: 0;
+  margin: 0;
+}
+
+#news-section .cards-section{
+  width: 100%;
+}
+
+#news-section .card{
+  margin-top: 3%;
+  margin-left: 4%;
+  float: left;
+}
+
+#news-section{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  clear: left;
+  float: left;
+  text-align: center;
+  width:  100%;
+}
+
+#news-section h1{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 0;
+  color: #2bbcff;
+  font-family: Share, Helvetica, Arial, sans-serif;
+}
+
+#news-more{
+  padding-left: 100px;
+}
+
+#news-more .b{
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+	color: #2bbcff;
+	background: none;
+	border: 2px solid #2bbcff;
+	border-radius: 100px;
+  width: 150%;
+  height: 130%;
+}
+
+
+#news-more .b:hover > #light-bulb {
+	animation: shine 0.5s alternate infinite;
+}
+#news-more .b:hover {
+	color: black;
+	background: #2bbcff;
+	/* box-shadow: 0 0 10px #ff5722, 0 0 40px #ff5722, 0 0 80px #ff5722; */
+}
+
+
+.card img{
+  box-shadow: none;
+}
+
+.card{
+  width: 20%;
+  height: 300px;
+  float: left;
+  margin-left: 29px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.card p{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: rgb(0, 29, 124);
+  font-weight: 800;
+}
+
+.card-text{
+  margin: 0;
+  padding: 0;
+}
+
+.total-news .containerBtn{
+  display: block;
+  float:right;
+  margin:0;
+  padding: 5%;
+}
+
+#news-section .cards-section .containerBtn{
+  padding:0;
+  margin:0;
+  text-align: center;
+  margin-top: 10px
+}

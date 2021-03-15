@@ -1,0 +1,260 @@
+.total-nav{
+    width:100%;
+    float:left;
+}
+#navbar{
+    margin-left: 20%;
+    width:80%;
+    padding: 0;
+    position: fixed;
+    overflow: hidden ;
+    z-index:10;
+    background: #1c76a0;
+    font-size: 11px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    overflow: hidden ;
+}
+#navbar a:hover {
+    background: black;
+}
+
+
+#navbar2{
+    margin-left: 20%;
+    width:80%;
+    height: 2.95em;
+    margin-top: 48.2px;
+    padding: 0;
+    padding-top:0;
+    position: fixed;
+    overflow: hidden ;
+    z-index: 9;
+    background: hsl(0, 0%, 15%);
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    overflow: hidden ;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 1px 3px #312e2e;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+#navbar2 a:hover {
+    background: black;
+}
+
+
+#navbar .topnav a{
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    width: 14.285%;
+}
+
+#navbar2 .topnav2 a{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 16.666%;
+}
+
+
+.srm-token{
+  position: fixed;
+  z-index: 20;
+  background-color: #002c46;
+  width: 20%;
+  height: 7em;
+  -webkit-box-shadow: 0px 2px 4px #000000;
+  -moz-box-shadow: 0px 2px 4px #000000;
+  box-shadow: 0px 1px 3px #312e2e;
+  
+}
+
+.srm-token .srm-title-nav{
+    font-size: 54px; 
+  letter-spacing: 6px;
+}
+
+.srm-token .srm-ist-hidden{
+    display: none;
+}
+
+.srm-token img{
+  display: inline-flex;  
+  float: left;
+  margin: 6px;
+  height: 70px;
+  width: 70px;
+}
+
+.srm-token p{
+  margin-top: 30px;
+  padding-left: 6px;
+  text-align: justify;
+  display: inline-block;
+  font-size: 8px;
+  font-weight: bolder;
+  color: #ffffff;
+  font-family: 'TimesNewRoman', serif;
+  text-align: center;
+  line-height: 13px;
+}
+
+
+.topnav {
+    overflow: hidden;
+}
+  
+.topnav a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav2 a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.drop-block a.icon {
+    display: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.topnav2 a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+  
+
+  
+@media screen and (max-width: 800px) {
+    .topnav a, .dropdown .dropbtn {
+        display: none;
+    }
+
+      .topnav a.icon {
+        float: right;
+    }
+
+    .drop-block a.icon{
+        display: block;
+    }
+}
+
+
+  
+@media screen and (max-width: 800px) {
+    .topnav.responsive {
+        position: relative;
+        width: 100%;
+    }
+    .drop-block.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-align: center;
+    }
+    
+    .topnav.responsive a{
+    float: center;
+    display: block;
+    text-align: center;
+    }
+      
+
+
+  .drop-block.responsive a.icon{
+    width: 100%;
+    float: center;
+    display: block;
+    text-align: center;
+  }
+
+  #navbar .topnav a {
+      width: 100%;
+  }
+
+  #navbar{
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 1px 3px #312e2e;
+  }
+
+
+    #navbar2{
+        display: none;
+        padding: 0;
+    }
+    .topnav2 a{
+        font-size: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .srm-token{
+        height: 4.195em;
+        vertical-align: center;
+    }
+
+    .srm-token img{
+        margin: 1px;
+        height: 4em;
+        width: 4em;
+    }
+
+    .srm-token .srm-ist-nav{
+        display: none;
+    }
+    .srm-token .srm-title-nav{
+        top: 0;
+        font-size: 200%; 
+        letter-spacing: 0;
+    }
+
+    .srm-token p{
+        width: 45%;
+        margin:0;
+        margin-top: 7%;
+        padding:0;
+        text-align: center;
+    }
+    .srm-token .srm-ist-hidden{
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1150px){
+
+    .srm-token .srm-ist-nav{
+        display: none;
+    }
+    .srm-token .srm-title-nav{
+        margin-top:0;
+        padding-top:0;
+        top: 0;
+        font-size: 30px; 
+        letter-spacing: 0;
+    }
+    
+    .srm-token .srm-ist-hidden{
+        display: block;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}

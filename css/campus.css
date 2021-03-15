@@ -1,0 +1,51 @@
+.total-campus{
+  display: block;
+    margin: 0;
+    padding: 0;
+    clear: left;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#campus-life{   
+    margin: 0;
+    padding: 0;
+    clear: left;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+ 
+
+#campus-life h1{   
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: #2bbcff;
+    font-family: Share, Helvetica, Arial, sans-serif;
+  }
+
+
+#campus-life h2{
+    padding-bottom: 0;
+}
+.campus-content{
+  width: 100%;
+}
+
+.campus-content .card{
+  margin-left: 4%;
+  width: 20%;
+  background-color: #2bbcff;
+  transform: rotate(-10deg);
+}
+
+
+.campus-content .card .card-body .card-text{
+  font-size: 18px;  
+  margin-bottom: 12px;
+  font-weight: 900;
+}

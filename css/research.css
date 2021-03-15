@@ -1,0 +1,445 @@
+.research-all{
+    display: block;
+}
+
+#research{   
+    margin: 0;
+    padding: 0;
+    clear: left;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+ 
+
+#research h1{   
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: #2bbcff;
+    font-family: Share, Helvetica, Arial, sans-serif;
+  }
+
+
+  #research h2{
+    padding-bottom: 20px;
+  }
+  
+.research-block1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 30%;
+    float: left;
+    height: 62%;
+}
+
+.research-block1 img{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.research-block1 .card-body h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    
+}
+
+.research-block1 p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.research-block1 .card-body p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.research-block1 .add-img-align{
+    margin: 0;
+    padding: 0;
+}
+
+.research-block1 .text-block{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    top: 0;
+    left: 0;
+}
+
+.research-block1 .research-topic{
+    margin:0;
+    padding:0;
+}
+
+.research-block1 .research-content{
+    margin:0;
+    padding:0;
+    display: inline;
+    font-size: 10px;
+}
+
+
+
+.research-block1 .top-events{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.research-block1 .top-events .card{
+    display: block;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-left:5%;
+    float: left;
+    padding: 0;
+    border: none;
+  }
+  
+  .research-block1 .top-events .card-body{
+      margin: 15px;
+      margin-top: 5px;
+      margin-bottom: 7px;
+      padding:0;
+      margin-left: 5%;
+      padding-bottom: 0;
+  }
+  
+  
+  .research-block1 .date-block{
+      display: inline-block;
+      position: absolute;
+      border-radius: 10%;
+      width: 20%;
+      height: 20%;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      font-weight: bold;
+  }
+  
+  
+  .research-block1 .top-events .card-text{
+      display: inline-block;
+      position: relative;
+      color: #2bbcff;
+      padding: 0;
+      margin:0;
+      text-align: center;
+  }
+  
+  .research-block1  .top-events .event-date{
+      display: inline-block;
+      position: relative;
+      padding: 0;
+      margin-left: 24%;
+      color: white;
+      font-size: 10px;
+      font-weight: lighter;
+  }
+
+.research-block1 .container {
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 15px;
+    display: inline-block;
+    width: 100%;
+    height: 45%;
+  }
+  
+.leftpane {
+      width: 34%;
+      height: 100%;
+      float: left;
+      border-collapse: collapse;
+      border-right: 1px solid #065a81;
+      height: 185px;
+  }
+  
+.middlepane {
+      width: 32%;
+      height: 100%;
+      padding-left:10px;
+      padding-right:10px;
+      float: left;
+      border-collapse: collapse;
+  }
+
+.rightpane {
+    width: 34%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+    border-left: 1px solid #065a81;
+    height: 185px;
+  }
+  
+.toppane {
+    margin: 0; padding: 0;
+    margin-left: 0;
+    margin-bottom: 9px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    border-collapse: collapse;
+}
+
+.toppane h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #2bbcff  ;
+}
+
+.leftpane h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    color: #2bbcff;
+}
+
+.rightpane h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    color: #2bbcff;
+}
+
+.middlepane h1{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        color: white;
+        font-family: Share, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: center;
+        color: #2bbcff;
+}
+
+
+.research-block2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 62%;
+    text-align: center;
+}
+
+
+.research-block2 .add-img-align{
+    text-align: center;
+}
+
+
+.research-block2 img{
+    margin: 0px auto;
+    display: block;
+    width: 85%;
+    height: 30%;
+    border-radius: 2%;
+}
+
+.research-block2 .text-block {
+    margin: 0;
+    padding:0 20px; 
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 2px;
+    text-align: center;
+}
+
+.research-block2 .text-block p{
+  margin-left:0;
+  padding-left:0;
+  color: #ffffff;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 12px;
+}
+
+.research-block2 .text-block h2{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #ffffff;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 18px;
+  }
+
+.leftpane p{
+    padding-top: 5px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.rightpane p{
+    padding-top: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.middlepane p{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+
+
+.research-block3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 30%;
+    float: left;
+    height: 62%;
+}
+
+
+
+.research-block3 img{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.research-block3 p{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+
+.research-block3 .add-img-align{
+    margin: 0;
+    padding: 0;
+}
+
+.research-block3 .text-block{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    top: 0;
+    left: 0;
+}
+
+.research-block3 .research-topic{
+    margin:0;
+    padding:0;
+}
+
+.research-block3 .research-content{
+    margin:0;
+    padding:0;
+    display: inline;
+    font-size: 10px;
+}
+
+
+
+.research-block3 .top-events{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.research-block3 .top-events .card{
+    display: block;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0;
+    float: left;
+    padding: 0;
+    border: none;
+  }
+  
+  .research-block3 .top-events .card-body{
+      margin: 0;
+      padding:0;
+      padding-right: 5%;
+      padding-bottom: 37px;
+  }
+  
+  
+  .research-block3  .date-block{
+      display: inline-block;
+      position: absolute;
+      border-radius: 10%;
+      width: 20%;
+      height: 20%;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      font-weight: bold;
+  }
+  
+  
+  .research-block3 .top-events .card-text{
+      display: inline-block;
+      position: relative;
+      margin-left: 24%;
+      color: #2bbcff;;
+      padding: 0;
+  }
+  
+  .research-block3  .top-events .event-date{
+      display: inline-block;
+      position: relative;
+      padding: 0;
+      margin-left: 24%;
+      color: white;
+      font-size: 10px;
+      font-weight: lighter;
+  }
+
