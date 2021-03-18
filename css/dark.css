@@ -588,12 +588,12 @@ section {
 }
 
 .social-icons{
+  display: inline-block;
   width: 100%;
   margin-top: 140px;
+  margin-bottom: 0;
   height: 40px;
-  float: right;
-  background-color: #002c46;
-  
+  background-color: #002c46; 
 }
 
 .social-icons img{
@@ -606,18 +606,20 @@ section {
 
 .social-icons p{
   display: table-cell;
+  margin-bottom: 0px;
+  padding-bottom: 0;
   float: left;
   padding: 4px;
   padding-left: 10px;
   font-size: 22px;
   font-family: 'Redressed', cursive;
+  color: white;
 }
 
 .social-icons p .reg-no{
   font-size: 16px;
   letter-spacing: 2px;
 }
-
 /* responsive */
 
 
